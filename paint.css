@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+}
+.topsection{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    box-shadow: 2px 2px 2px grey;
+}
+.logo{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+}
+.headingsection{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 100px;
+}
+.contactsection{
+    width: 100%;
+    height: 100px;
+    border: 1px solid lightgrey;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+}
+#call{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eff1f0;
+}
+#call:hover{
+    scale: 1.10;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.fs{
+    font-size: 20px;
+}
+.ss{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.tsection{
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.ssection{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    /* position: fixed; */
+    /* top: 100px; */
+}
+.service{
+    height: 100px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.am{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* background-color:; */
+}
+.fbutton{
+    width: 200px;
+    height: 70%;
+    border: none;
+    background-color: #ae2024;
+    font-size: 18px;
+}
+.fbutton:hover{
+    background:blueviolet;
+    /* transform:translateX(blueviolet) ; */
+}
+.moon{
+    width: 100px;
+    height: 100px;
+    /* background-color: #ae2024; */
+}
+#moon{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+.secondsection{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+}
+.iright{
+    /* float: right; */
+    width:40% ;
+    height:100% ;
+    background-color: grey;
+    
+    position: relative;
+}
+#landing{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+
+}
+.sleft{
+    width: 60%;
+    height: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.group{
+    display: flex;
+    gap: 60px;
+}
+.section3{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 20px;
+}
+.sh1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.fh4{
+    font-size: 25px;
+    font: bold;
+    color:maroon;
+}
+.sp{
+    font-size: 25px;
+    color:darkgrey;
+    font-weight: 500;
+}
+.section4{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20%;
+    height: 90%;
+    box-shadow: 2px 2px 2px lightgrey;
+    background-color: lightgrey;
+    padding:10px;
+}
+#b1:hover{
+    background-color: #ae202593;
+    background-image:url(/phots.paint/call_files/exterior.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    color: white;
+    scale: 1.10;
+}
+#b2:hover{
+    background-color: #ae202593;
+    background-image:url(/phots.paint/call_files/exterior1.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    color: white;
+    scale: 1.10;
+}
+#b3:hover{
+    background-color: #ae202593;
+    background-image:url(/phots.paint/call_files/fence.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    color: white;
+    scale: 1.10;
+}
+#b4:hover{
+    background-color: #ae202593;
+    background-image:url(/phots.paint/call_files/floor.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    color: white;
+    scale: 1.10;
+}
+#s4s{
+    width: 100px;
+    height: 100px;
+}
+.tbutton{
+    width: 200px;
+    height: 50px;
+    background-color: #ae2024;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 100px;
+    
+}
+.sleft2{
+    width: 40%;
+    height: 90%;
+
+    background-color: grey;
+    rotate: 15deg;
+    position: relative;
+}
+.sright2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: 80px;
+}
+.expic{
+    width: 500px;
+    height:auto ;
+    rotate: -10deg;
+    position: absolute;
+    left: 50px;
+}
+h4{
+    color: #ae2024;
+    font-size: 20px;
+}
+.section7{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    background-image:url(/phots.paint/call_files/why.jpg);
+    background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, 0.596);
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+.subsection{
+    text-align: center;
+    width: 50%;
+}
+.boxing{
+    width: 100%;
+    height: 50vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxe{
+    width: 20%;
+    height: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#s5s{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.one{
+    color: white;
+}
+.section8{
+    width: 100%;
+    height: 90vh;
+
+}
+.s8text{
+    width: 60%;
+    height: 70vh;
+    text-align: center;
+    margin: auto;
+}
+.section9{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.boxa{
+    width: 20%;
+    height: 100%;
+    outline: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxa:hover{
+    scale: 1.10;
+}
+.s9part{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+
+}
+.section10{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+
+}
+.s10part1{
+    width: 50%;
+    height: 100%;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.s10part2{
+    width: 40%;
+    height: 100%;
+    background-image: url(/phots.paint/call_files/kitchen-home.jpg);
+    background-size: cover;
+    /* padding-left: 100px; */
+    box-sizing: border-box;
+    position: relative;
+}
+.s10part2a{
+    width: 200px;
+    height: 200px;
+    border: 20px solid black;
+    position: absolute;
+    top: 300px;
+    right:500px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section11{
+    height: 90vh;
+    width: 100%;
+    margin-top: 100px;
+}
+.s11part{
+    margin: auto;
+    text-align: center;
+}
+.s11part2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.s11part3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.subpart{
+    width: 80%;
+    height: 50px;
+    background-color:#eff1f0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.section12{
+    height: 150vh;
+    width: 100%;
+    background-color: lightgrey;
+    padding-top: 100px;
+}
+.s12part1{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.s12part2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+.s12part21{
+    width: 25%;
+    height: 50vh;
+    margin-top: 100px;
+    background-color: white;
+    padding: 25px;
+}
