@@ -52,8 +52,7 @@
 }
 .contact{
     display: flex;
-    gap: 20px;
-    
+    gap: 20px;    
 }
 a{
     text-decoration: none;
@@ -69,7 +68,6 @@ a{
 .tsection{
     width: 80%;
     height: 200px;
-    /* border: 1px solid black; */
     box-sizing: border-box;
 }
 .ssection{
@@ -79,17 +77,13 @@ a{
     align-items: center;
     justify-content: space-around;
     justify-content: center;
-    /* position: fixed; */
-    /* top: 100px; */
 }
 .service{
     height: 100px;
     width: 80%;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .am{
     width: 150px;
@@ -97,7 +91,6 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-   /* background-color:; */
 }
 .fbutton{
     width: 200px;
@@ -108,12 +101,10 @@ a{
 }
 .fbutton:hover{
     background:blueviolet;
-    /* transform:translateX(blueviolet) ; */
 }
 .moon{
     width: 100px;
     height: 100px;
-    /* background-color: #ae2024; */
 }
 #moon{
     width: 100px;
@@ -127,11 +118,9 @@ a{
     display: flex;
 }
 .iright{
-    /* float: right; */
     width:40% ;
     height:100% ;
     background-color: grey;
-    
     position: relative;
 }
 #landing{
@@ -140,7 +129,6 @@ a{
     position: absolute;
     top: 100px;
     right: 200px;
-
 }
 .sleft{
     width: 60%;
@@ -179,7 +167,6 @@ a{
     width: 100%;
     height: 50vh;
     display: flex;
-    /* justify-content: space-evenly; */
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -248,12 +235,10 @@ a{
     display: flex;
     box-sizing: border-box;
     padding-left: 100px;
-    
 }
 .sleft2{
     width: 40%;
     height: 90%;
-
     background-color: grey;
     rotate: 15deg;
     position: relative;
@@ -287,7 +272,6 @@ h4{
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
-
 }
 .subsection{
     text-align: center;
@@ -296,7 +280,6 @@ h4{
 .boxing{
     width: 100%;
     height: 50vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +288,6 @@ h4{
 .boxe{
     width: 20%;
     height: 90%;
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -316,7 +298,6 @@ h4{
     height: 100px;
     background-color: white;
     margin-bottom: 20px;
-    
 }
 .one{
     color: white;
@@ -324,7 +305,6 @@ h4{
 .section8{
     width: 100%;
     height: 90vh;
-
 }
 .s8text{
     width: 60%;
@@ -370,9 +350,6 @@ h4{
     height: 100px;
     display: flex;
     justify-content: center;
-    /* margin-top: 100px; */
-    /* margin-bottom: 100px; */
-
 }
 .section10{
     width: 100%;
@@ -380,7 +357,6 @@ h4{
     background-color: #f7f7f7;
     display: flex;
     justify-content: space-between;
-
 }
 .s10part1{
     width: 50%;
@@ -393,7 +369,6 @@ h4{
     height: 100%;
     background-image: url(/phots.paint/call_files/kitchen-home.jpg);
     background-size: cover;
-    /* padding-left: 100px; */
     box-sizing: border-box;
     position: relative;
 }
@@ -462,3 +437,64 @@ h4{
     background-color: white;
     padding: 25px;
 }
+.section14{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(174,32,36);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.section13{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.s13part{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.whitelogo{
+    width: 300px;
+    height: 200px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.s13part2{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+.subsection1{
+    width: 50%;
+    height: 65%;
+}
+.subsection2{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}.lastsection{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    border-top:2px solid white;
+    background-color: black;
+    color: white;
+    padding-top: 50px;}
